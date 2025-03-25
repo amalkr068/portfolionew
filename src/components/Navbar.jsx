@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className='text-2xl font-bold hidden md:inline'>Amal K R</div>
             <div className='space-x-6'>
                 <a href="#home" className='hover:text-gray-400'>Home</a>
-                <a href="#about" className='hover:text-gray-400'>About Me</a>
+                <a href="#about" className='hover:text-gray-400'>About</a>
                 <a href="#service" className='hover:text-gray-400'>Services</a>
                 <a href="#project" className='hover:text-gray-400'>Projects</a>
                 <a href="#contact" className='hover:text-gray-400'>Contact</a>
