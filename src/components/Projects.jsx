@@ -1,28 +1,31 @@
 import React from "react";
 import employeeMSImage from "../assets/employee-ms.png";
 import bookMSImage from "../assets/admin-dashboard.png";
+import threadsImage from "../assets/threads.jpg"
+import ec from "../assets/ec.jpg"
+import tinder from "../assets/tinder1.jpg"
 
 const projects = [
   {
     id: 1,
-    name: "Employee MS",
+    name: "Dev-Threads Application",
     technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1",
+    image: threadsImage,
+    github: "https://dev-threads.onrender.com/",
   },
   {
     id: 2,
-    name: "Blog App",
+    name: "E Commerce Application",
     technologies: "MERN Stack",
-    image: bookMSImage,
-    github: "https://github.com/YouafKhan1",
+    image: ec,
+    github: "https://malefashion.cfd/",
   },
   {
     id: 3,
-    name: "Book MS",
+    name: "Dev-Tinder Application",
     technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1",
+    image: tinder,
+    github: "https://github.com/amalkr068/Dev-Tinder-Front-End",
   },
 ];
 
@@ -41,7 +44,7 @@ const Projects = () => {
               <p className="text-gray-400 mb-4">{project.technologies}</p>
               <a href={project.github} className="inline-block bg-gradient-to-r 
               from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
-              rel="noopener noreferrer">GitHub</a>
+              rel="noopener noreferrer">Go Live</a>
             </div>
           ))}
         </div>
